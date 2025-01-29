@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    max-width: 1320px; /* Set max-width instead of width */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+ul {
+  list-style-type: none; /* Removes bullets */
+  padding: 0;            /* Removes default padding */
+  margin: 0;             /* Removes default margin */
+}
+
+li {
+  text-decoration: none; /* Ensures no decoration on the list items */
+}
+
+a {
+  text-decoration: none; /* Removes underlines from links */
+  color: inherit;        /* Makes the link text inherit the parent color */
+}
+
+/* .container {
+  width: 1320px;
+  padding: 0px 10px;
+  margin: 0px auto;
+} */
+
+.margin{
+  margin-bottom: 80px;
+}
