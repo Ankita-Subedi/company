@@ -90,23 +90,24 @@ const Navbar = () => {
           {isOpen ? <i className="fa-solid fa-xmark h-20"></i> : <Hamburger />}
         </div>
         {isOpen && (
-          <div className="absolute top-24 text-center w-full">
-            <ul className="flex flex-col items-center justify-center">
-              <li className="border-t border-b border-blue-400 p-2 w-full">
-                <Link to="/">Home</Link>
-              </li>
-              <li className="border-t border-b border-blue-400 p-2 w-full">
-                <Link to="/about">About Us</Link>
-              </li>
-              <li className="border-t border-b border-blue-400 p-2 w-full">
-                <Link to="/service">Our Services</Link>
-              </li>
-              <li className="border-t border-b border-blue-400 p-2 w-full">
-                <Link to="/contact">Contact Us</Link>
-              </li>
-            </ul>
-          </div>
-        )}
+  <div className="absolute top-24 text-center w-full">
+    <ul className="flex flex-col items-center justify-center border border-blue-400 bg-white rounded-md shadow-lg overflow-hidden">
+      <li className="p-2 w-full hover:bg-blue-100">
+        <Link to="/">Home</Link>
+      </li>
+      <li className="border-t border-blue-400 p-2 w-full hover:bg-blue-100">
+        <Link to="/about">About Us</Link>
+      </li>
+      <li className="border-t border-blue-400 p-2 w-full hover:bg-blue-100">
+        <Link to="/service">Our Services</Link>
+      </li>
+      <li className="border-t border-blue-400 p-2 w-full hover:bg-blue-100">
+        <Link to="/contact">Contact Us</Link>
+      </li>
+    </ul>
+  </div>
+)}
+
       </div>
 
       {/* large second  nav*/}

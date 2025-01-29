@@ -3,7 +3,6 @@ import AboutUs from '../sections/AboutUs'
 import Hero from '../sections/Hero'
 import Service from '../sections/Service'
 import Carousel from '../components/Carousel'
-import CarouselClient from '../components/CarouselClient'
 import Faq from '../sections/Faq'
 import Footer from '../sections/Footer'
 import react from "../assets/tech/rreact.jpg";
@@ -32,7 +31,6 @@ const Home = () => {
       img7={nodejs}
       img8={react}
     />
-    <CarouselClient/>
     <Faq/>
     </div>
   )
